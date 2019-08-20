@@ -1,3 +1,13 @@
 = .dwm
 
-DWM
+export REPO="$HOME/.dwm"
+
+cp -r $PWD/{.lynx.cfg,.lynx.lss,.bashrc,.Xresources,wallpapers,surf,dwm,dmenu,.surf,.newsboat,.ncmpcpp,.dwm} $REPO/
+
+cp -r $PWD/.config{compton,conky,rofi,vifm} $REPO/
+
+# place my xst repo in this folder
+
+# git clone https://gitlab.com/dwt1/dotfiles/tree/master
+# git clone https://github.com/JeremyOttley/st
+# cp -r xst-git $REPO/st
