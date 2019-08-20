@@ -3,15 +3,15 @@
 ----
 export REPO="$HOME/.dwm"
 
-cp -r $PWD/{.lynx.cfg,.lynx.lss,.bashrc,.Xresources,wallpapers,surf,dwm,dmenu,.surf,.newsboat,.ncmpcpp,.dwm} $REPO/
+cp -r $PWD/dotfiles/{.lynx.cfg,.lynx.lss,.bashrc,.Xresources,wallpapers,surf,dwm,dmenu,.surf,.newsboat,.ncmpcpp,.dwm} $REPO/
 
-cp -r $PWD/.config{compton,conky,rofi,vifm} $REPO/
+cp -r $PWD/dotfiles/.config{compton,conky,rofi,vifm} $REPO/
 
-# place my xst repo in this folder
+# place my st repo in this folder
 
-# git clone https://gitlab.com/dwt1/dotfiles/tree/master
+# git clone https://gitlab.com/dwt1/dotfiles
 # git clone https://github.com/JeremyOttley/st
-# cp -r xst-git $REPO/st
+# cp -r st/ $REPO/st
 
 apps = [
   dwm,
