@@ -1,5 +1,6 @@
 = .dwm
 
+----
 export REPO="$HOME/.dwm"
 
 cp -r $PWD/{.lynx.cfg,.lynx.lss,.bashrc,.Xresources,wallpapers,surf,dwm,dmenu,.surf,.newsboat,.ncmpcpp,.dwm} $REPO/
@@ -11,3 +12,24 @@ cp -r $PWD/.config{compton,conky,rofi,vifm} $REPO/
 # git clone https://gitlab.com/dwt1/dotfiles/tree/master
 # git clone https://github.com/JeremyOttley/st
 # cp -r xst-git $REPO/st
+
+apps = [
+  dwm,
+  dmenu,
+  newsboat,
+  rtv,
+  neomutt,
+  twitch-curses,
+  vifm,
+  cmus,
+  irssi,
+  rtorrent,
+  gtop,
+  glances,
+  cmatrix,
+  pianobar,
+  surf,
+  firefox
+]
+
+----
