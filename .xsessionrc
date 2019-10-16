@@ -1,3 +1,8 @@
-xrandr --dpi 210
 
-export EDITOR='vim'
+compton -cCGb --backend glx --vsync opengl
+dwmbar &
+export $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg)
+sh ~/.fehbg
+exec dwm
+gnome-screensaver &
+gnome-settings-daemon &

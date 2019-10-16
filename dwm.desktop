@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=DWM
+Comment=Dynamic Window Manager
+Exec=/usr/local/bin/dwm
+Icon=dwm
+Type=XSession
+X-LightDM-DesktopName=dwm
+NoDisplay=false
