@@ -29,13 +29,20 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "Firefox",  NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "qutebrowser",  NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "luakit",  NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "Ristretto",  NULL,       NULL,       1 << 4,       0,           -1 },
+	{ "Mailspring",  NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "Rawtherapee",  NULL,       NULL,       1 << 4,       0,           -1 },
+	{ "discord",  NULL,       NULL,       1 << 6,       0,           -1 },
+	{ "vlc",  NULL,       NULL,       1 << 5,       0,           -1 },
 };
 
 /* layout(s) */
 static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
-static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
+static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 
 #include "layouts.c"
 static const Layout layouts[] = {

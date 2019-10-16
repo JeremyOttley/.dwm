@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=DWM
+Comment=Tiling Window Manager
+TryExec=/usr/bin/gnome-session
+Exec=gnome-session --session=dwm
+Icon-dwm
+Type=XSession
+X-LightDM-DesktopName=dwm
+NoDisplay=false
